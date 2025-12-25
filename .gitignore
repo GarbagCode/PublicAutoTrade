@@ -1,0 +1,6 @@
+.env
+token.json
+tradeBot/strategies/leverageTurtle.py
+todo.txt
+venv/
+log/log_files/
