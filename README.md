@@ -1,6 +1,6 @@
 # autoTrade
 
-Automated trading bot that translates thinkorswim strategies into Python using Charles Schwab's API for historical data.
+A trading infrastructure, It provides the execution layer and plumbing needed to run any custom trading strategy, as long as the strategy follows the required interface/format. The system handles order execution and data access using the Charles Schwab API, allowing strategies to trade without relying on paid platforms.
 
 ## Quick Start
 
