@@ -458,7 +458,7 @@ async def run_stream(strategy_info: list[dict]):
 
 
 if __name__ == "__main__":
-    from database.queries.strategies import get_all_active_strategies
+    from backend.queries.strategies import get_all_active_strategies
 
     # Get active strategies from database (now returns list of dicts)
     list_active_strategies = get_all_active_strategies()

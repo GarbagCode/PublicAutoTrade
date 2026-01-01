@@ -2,7 +2,7 @@ import logging, asyncio, time, sys
 from log.setupLogger import setup_logging
 from keep_token_alive import tokens_refresh_loop, refresh_tokens_once
 from tradeBot.get_data.schwab_automatic_stream import run_stream
-from database.queries.strategies import get_all_active_day_trading_strategies
+from backend.queries.strategies import get_all_active_day_trading_strategies
 from dotenv import load_dotenv
 from threading import Thread
 
