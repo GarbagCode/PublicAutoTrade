@@ -1,7 +1,7 @@
 import requests, csv, os, logging
 from datetime import datetime, timezone, timedelta
 from typing import Optional
-from queries.active_positions import add_active_position, get_order_id_list, delete_active_positions
+from database.queries.active_positions import add_active_position, get_order_id_list, delete_active_positions
 import math
 
 
