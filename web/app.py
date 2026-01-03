@@ -20,7 +20,7 @@ TRADING_REDIRECT_URI = os.getenv("TRADING_REDIRECT_URI")
 
 @app.route("/")
 def home():
-    return "App working, please go to 'https://github.com/coolfrancy/autoTrade' for help on implementation" 
+    return "App working, please go to 'https://github.com/GarbagCode/PublicAutoTrade' for help on implementation" 
 
 
 @app.route("/data", methods=["GET"])
