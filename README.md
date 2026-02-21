@@ -184,3 +184,6 @@ LIMIT 50;
 - Each strategy must contain a `main(df)` function
 - The `active` column controls which strategies run (1 = active, 0 = inactive)
 - Lookback days are constrained to 1-10 days by the database schema
+
+❤️ Support the Project
+If you find this useful and want to support continued development: 👉 https://www.patreon.com/c/GarbageCode
